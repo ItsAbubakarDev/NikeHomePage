@@ -223,6 +223,52 @@ footer {
     margin-bottom: 8px;
 }
 
+.dropdown {
+    text-decoration: none;
+    color:black;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .guide {
+    cursor: pointer;
+  }
+  
+  /* Ensure the class name matches exactly */
+  .dropdown-content {
+    text-decoration: none;
+    color :black;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+.dropdown-content a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+  
+  /* Show dropdown when hovering over the parent */
+  .dropdown:hover .dropdown-content {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+ }
+
+ 
+
+ .footerlinkcontent{
+    text-decoration: none;
+    padding-left: 10px;
+    color: black;
+
+ }
+ 
+
 .footer-column a:hover {
     text-decoration: underline;
 }
@@ -236,4 +282,9 @@ footer {
 
 .footer-location i {
     margin-right: 5px;
+}
+
+.last-footer{
+    padding-top: 20px;
+    margin-top: 20px;
 }
